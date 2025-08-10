@@ -23,10 +23,10 @@ BOT_NAME = getenv("BOT_NAME", "AYESHA MUSIC")
 ASSUSERNAME = getenv("ASSUSERNAME", "Og_Tenny")
 
 #❖ Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7981435750:AAFAjrDiWDfEDKwJ3WIsOhpbZThiV1JY7h0")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 #❖ Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Mrdaxx123:Mrdaxx123@cluster0.q1da65h.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 
