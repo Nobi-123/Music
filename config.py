@@ -11,16 +11,16 @@ API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 
 #❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Og_Tenny")
+OWNER_USERNAME = getenv("OWNER_USERNAME", None)
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "CardioMuzicBot")
+BOT_USERNAME = getenv("BOT_USERNAME", None)
 
 #❖  Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "AYESHA MUSIC")
+BOT_NAME = getenv("BOT_NAME", None)
 
 #❖ get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "Og_Tenny")
+ASSUSERNAME = getenv("ASSUSERNAME", None)
 
 #❖ Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -31,10 +31,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 
 #❖  Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002681848382"))
+LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 #❖ Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7694170809"))
+OWNER_ID = int(getenv("OWNER_ID", None))
 
 #❖  Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
