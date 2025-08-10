@@ -4,7 +4,7 @@ import random
 import requests
 from AnonXMusic import app 
 
-SUPPORT_CHAT = "The_friendz"
+SUPPORT_CHAT = "AyeshaXsupport"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
@@ -19,7 +19,7 @@ async def wish(_, m):
     wish = f"❖ ʜᴇʏ {m.from_user.first_name}"
     wish += f"\n\n● ʏᴏᴜʀ ᴡɪꜱʜ ➥ {text} "
     wish += f"\n● ᴘᴏꜱꜱɪʙʟᴇ ᴛᴏ ➥ {wish_count}%"
-    wish += f"\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐"
+    wish += f"\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ -  `𝐀ʏᴇѕнα  ꭗ‌  𝐌ᴜѕɪᴄs"
     
     await app.send_animation(
         chat_id=m.chat.id,
